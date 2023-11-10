@@ -41,3 +41,9 @@ print('So tien gui:',So_tien_gui)
 print('So thang gui:',So_thang_gui)
 print('Tien lai', '=',Tien_lai)
 print('tien von', '+', 'Lai', '=', So_tien_gui, '+', Tien_lai, '=',Tong_so_tien)
+#1.6
+alice_candies=eval(input('keo cua alice'))
+bob_candies=eval(input('keo cua bob'))
+carol_candies=eval(input('keo cua carol'))
+so_keo_du=(alice_candies+bob_candies+carol_candies)%3
+print('so keo can dap',so_keo_du)
